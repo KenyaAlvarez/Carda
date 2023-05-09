@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		669CDF2D2A0985AA0042D077 /* CreditCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669CDF2C2A0985AA0042D077 /* CreditCardApp.swift */; };
+		669CDF2F2A0985AA0042D077 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669CDF2E2A0985AA0042D077 /* ContentView.swift */; };
+		669CDF312A0985AB0042D077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669CDF302A0985AB0042D077 /* Assets.xcassets */; };
+		669CDF342A0985AB0042D077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669CDF332A0985AB0042D077 /* Preview Assets.xcassets */; };
+		669CDF362A0985AB0042D077 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669CDF352A0985AB0042D077 /* Persistence.swift */; };
+		669CDF392A0985AB0042D077 /* CreditCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 669CDF372A0985AB0042D077 /* CreditCard.xcdatamodeld */; };
+		669CDF422A09B43A0042D077 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669CDF412A09B43A0042D077 /* CardViewModel.swift */; };
+		66E1F5312A09CB2E00F84A1C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1F5302A09CB2E00F84A1C /* Home.swift */; };
+		66E1F5332A09CB7C00F84A1C /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1F5322A09CB7C00F84A1C /* AddCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		669CDF292A0985AA0042D077 /* CreditCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669CDF2C2A0985AA0042D077 /* CreditCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardApp.swift; sourceTree = "<group>"; };
+		669CDF2E2A0985AA0042D077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		669CDF302A0985AB0042D077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669CDF332A0985AB0042D077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		669CDF352A0985AB0042D077 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		669CDF382A0985AB0042D077 /* CreditCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditCard.xcdatamodel; sourceTree = "<group>"; };
+		669CDF412A09B43A0042D077 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		66E1F5302A09CB2E00F84A1C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		66E1F5322A09CB7C00F84A1C /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669CDF262A0985AA0042D077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669CDF202A0985AA0042D077 = {
+			isa = PBXGroup;
+			children = (
+				669CDF402A09B23D0042D077 /* ViewModels */,
+				669CDF3F2A09B2330042D077 /* Views */,
+				669CDF2B2A0985AA0042D077 /* CreditCard */,
+				669CDF2A2A0985AA0042D077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		669CDF2A2A0985AA0042D077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669CDF292A0985AA0042D077 /* CreditCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669CDF2B2A0985AA0042D077 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				669CDF2C2A0985AA0042D077 /* CreditCardApp.swift */,
+				669CDF2E2A0985AA0042D077 /* ContentView.swift */,
+				669CDF302A0985AB0042D077 /* Assets.xcassets */,
+				669CDF352A0985AB0042D077 /* Persistence.swift */,
+				669CDF372A0985AB0042D077 /* CreditCard.xcdatamodeld */,
+				669CDF322A0985AB0042D077 /* Preview Content */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		669CDF322A0985AB0042D077 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				669CDF332A0985AB0042D077 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		669CDF3F2A09B2330042D077 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66E1F5302A09CB2E00F84A1C /* Home.swift */,
+				66E1F5322A09CB7C00F84A1C /* AddCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		669CDF402A09B23D0042D077 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				669CDF412A09B43A0042D077 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669CDF282A0985AA0042D077 /* CreditCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669CDF3C2A0985AB0042D077 /* Build configuration list for PBXNativeTarget "CreditCard" */;
+			buildPhases = (
+				669CDF252A0985AA0042D077 /* Sources */,
+				669CDF262A0985AA0042D077 /* Frameworks */,
+				669CDF272A0985AA0042D077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCard;
+			productName = CreditCard;
+			productReference = 669CDF292A0985AA0042D077 /* CreditCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669CDF212A0985AA0042D077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					669CDF282A0985AA0042D077 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 669CDF242A0985AA0042D077 /* Build configuration list for PBXProject "CreditCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 669CDF202A0985AA0042D077;
+			productRefGroup = 669CDF2A2A0985AA0042D077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669CDF282A0985AA0042D077 /* CreditCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669CDF272A0985AA0042D077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669CDF342A0985AB0042D077 /* Preview Assets.xcassets in Resources */,
+				669CDF312A0985AB0042D077 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669CDF252A0985AA0042D077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669CDF392A0985AB0042D077 /* CreditCard.xcdatamodeld in Sources */,
+				669CDF362A0985AB0042D077 /* Persistence.swift in Sources */,
+				669CDF2F2A0985AA0042D077 /* ContentView.swift in Sources */,
+				669CDF2D2A0985AA0042D077 /* CreditCardApp.swift in Sources */,
+				669CDF422A09B43A0042D077 /* CardViewModel.swift in Sources */,
+				66E1F5312A09CB2E00F84A1C /* Home.swift in Sources */,
+				66E1F5332A09CB7C00F84A1C /* AddCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		669CDF3A2A0985AB0042D077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		669CDF3B2A0985AB0042D077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669CDF3D2A0985AB0042D077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCard/Preview Content\"";
+				DEVELOPMENT_TEAM = PMST76R955;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenya.CreditCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669CDF3E2A0985AB0042D077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCard/Preview Content\"";
+				DEVELOPMENT_TEAM = PMST76R955;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenya.CreditCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669CDF242A0985AA0042D077 /* Build configuration list for PBXProject "CreditCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669CDF3A2A0985AB0042D077 /* Debug */,
+				669CDF3B2A0985AB0042D077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669CDF3C2A0985AB0042D077 /* Build configuration list for PBXNativeTarget "CreditCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669CDF3D2A0985AB0042D077 /* Debug */,
+				669CDF3E2A0985AB0042D077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		669CDF372A0985AB0042D077 /* CreditCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				669CDF382A0985AB0042D077 /* CreditCard.xcdatamodel */,
+			);
+			currentVersion = 669CDF382A0985AB0042D077 /* CreditCard.xcdatamodel */;
+			path = CreditCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 669CDF212A0985AA0042D077 /* Project object */;
+}
